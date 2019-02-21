@@ -47,7 +47,10 @@ img:hover {
   background-color: #dd4444;
 }
 
-.column, .small, .med, .large {
+.column{
+    width: 31%;
+    display: inline-block;
+} .small, .med, .large {
   width: 48%;
   height: 80vh;
 }
